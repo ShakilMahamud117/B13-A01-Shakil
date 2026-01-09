@@ -104,12 +104,15 @@ nav button{
 /* Note section */
 .note{
     padding: 0px 120px;
-    background-color: ;
+    /* margin-bottom: 50px; */
 }
-.section-title{
+.note-section-title{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
+}
+.note-section-title h6{
+    color: #627382;
 }
 .note-card-container{
     display: flex;
@@ -126,7 +129,7 @@ nav button{
     text-align: center;
     padding: 24px;
     border-radius: 8px;
-    box-shadow: 5px 10px 15px 5px #627382;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
     width: 322px;
     height: 150px;
 }
@@ -142,4 +145,40 @@ nav button{
 .note-card p{
     font-weight: 400;
     /* width: 274px; */
+    color: #627382;
+}
+
+/* Konowledge Section */
+.knowledge{
+    padding: 120px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.knowledge img{
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 12px;
+}
+.knowledge-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.knowledge-container h6{
+    font-weight: 500;
+    color: #30B868;
+    font-size: 16px;
+}
+.knowledge-container h3{
+    font-size: 48px;
+    font-weight: bold;
+}
+.knowledge-container .des {
+    color: #627382;
+}
+.des ul li{
+list-style: none;
 }
