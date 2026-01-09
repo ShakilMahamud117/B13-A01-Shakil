@@ -14,7 +14,20 @@
     padding: 12px 16px;
     border: none;
     font-weight: 600;
+    cursor: pointer;
 }
+.primary-btn{
+    width: 164px;
+    height: 44px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    background-color: #30B868;
+    border: none;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
 
 .container{
     max-width: 1600px;
@@ -44,16 +57,6 @@ nav ul li a{
 nav img{
     width: 139px;
     height: 60px;
-}
-nav button{
-    width: 164px;
-    height: 44px;
-    padding: 12px 16px;
-    border-radius: 4px;
-    background-color: #30B868;
-    border: none;
-    font-weight: 600;
-    color: white;
 }
 
 /* Hero Section */
@@ -111,7 +114,7 @@ nav button{
     margin-top: 50px;
     margin-bottom: 30px;
 }
-.note-section-title h6{
+.note-subtitle  {
     color: #627382;
 }
 .note-card-container{
@@ -150,8 +153,8 @@ nav button{
 
 /* Konowledge Section */
 .knowledge{
-    padding: 120px;
-    height: 640px;
+    padding: 80px;
+    height: 540px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,18 +170,46 @@ nav button{
     flex-direction: column;
     gap: 20px;
 }
-.knowledge-container h6{
+.knowledge-subtitle{
     font-weight: 500;
     color: #30B868;
     font-size: 16px;
 }
-.knowledge-container h3{
+.knowledge-title{
     font-size: 48px;
     font-weight: bold;
 }
-.knowledge-container .des {
+.knowledge-des {
     color: #627382;
 }
 .des ul li{
 list-style: none;
+}
+
+/* Early Access Section */
+.early-access{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    padding: 80px 40px;
+    width: 1030px;
+    margin: 0 auto;
+}
+.early-access-title{
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.early-access-subtitle{
+    color: #627382;
+}
+.payment{
+    display: flex;
+    gap: 10px;
+    color: #627382;
 }
