@@ -221,10 +221,11 @@ list-style: none;
 /* footer section  */
 .footer{
     background-color: burlywood;
+    max-height: 300px;
 }
 .footer-element{
     /* height: 300px; */
-    padding: 120px;
+    padding:30px 120px;
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
